@@ -6,8 +6,8 @@ const Home = () => {
         <div>
             <h1>Home Pages Here</h1>
             <h1>Home Pages Here</h1>
-            <img src={bgImg} alt="" />
-            <img src={fbIcon} alt="" />
+            {/* <img src={bgImg} alt="" />
+            <img src={fbIcon} alt="" /> */}
         </div>
     );
 };
