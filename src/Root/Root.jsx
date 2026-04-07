@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../Components/Navbar';
 import { Outlet } from 'react-router';
 import bgImage from '../assest/images/Rectangle 1.png';
+import Home from '../Pages/Home';
 
 const Root = () => {
   return (
@@ -10,7 +11,9 @@ const Root = () => {
       style={{ backgroundImage: `url(${bgImage})` }}
     >
       {/* Navbar */}
+         <Home></Home>
       <Navbar />
+   
 
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/50 z-0"></div>
